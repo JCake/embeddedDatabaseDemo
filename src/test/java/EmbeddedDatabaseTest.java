@@ -6,8 +6,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabase;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 import static junit.framework.TestCase.assertTrue;

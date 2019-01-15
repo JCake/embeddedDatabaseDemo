@@ -1,4 +1,6 @@
-Generated from IntelliJ as a "Spring" project with Spring MVC and then added Maven from "Add Framework Support..."
+A demonstration of one possible way to use EmbeddedDatabase from spring-jdbc.
+
+In IntelliJ, added Maven from "Add Framework Support..."
 Had to add resources folder under 'test' and mark as test resources root
 
 Possible other resources:
