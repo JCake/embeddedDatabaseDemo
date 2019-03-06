@@ -1,7 +1,7 @@
 insert into OJUG_MEMB (member_id, first_name, last_name, join_date)
 values
 (1, 'Babe', 'Cafe', '1992-01-01'),
-(2, 'Jessica', 'Codr-Steele', '2009-10-01'),
+(2, 'Jessica', 'Steele-Codr', '2009-10-01'),
 (3, 'Sun', 'Oracle', '2010-01-27');
 
 insert into OJUG_MEETINGS (meeting_id, meeting_date, meeting_topic)
