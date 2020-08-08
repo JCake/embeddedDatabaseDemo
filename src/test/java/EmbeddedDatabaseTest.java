@@ -28,7 +28,7 @@ public class EmbeddedDatabaseTest {
     public void queryMembers(){
         List<String> foundMembers = sampleDAO.findMemberNames();
         assertEquals(3, foundMembers.size());
-        assertTrue(foundMembers.contains("Codr, Jessica"));
+        assertTrue(foundMembers.contains("Steele-Codr, Jessica"));
         assertTrue(foundMembers.contains("Cafe, Babe"));
         assertTrue(foundMembers.contains("Oracle, Sun"));
     }
@@ -40,7 +40,7 @@ public class EmbeddedDatabaseTest {
         for(String member : foundMembers){
             System.out.println(member);
         }
-        assertTrue(foundMembers.contains("Codr, Jessica"));
+        assertTrue(foundMembers.contains("Steele-Codr, Jessica"));
         assertTrue(foundMembers.contains("Cafe, Babe"));
     }
 
@@ -51,7 +51,7 @@ public class EmbeddedDatabaseTest {
         for(String member : foundMembers){
             System.out.println(member);
         }
-        assertTrue(foundMembers.contains("Codr, Jessica"));
+        assertTrue(foundMembers.contains("Steele-Codr, Jessica"));
         assertTrue(foundMembers.contains("Oracle, Sun"));
     }
 
